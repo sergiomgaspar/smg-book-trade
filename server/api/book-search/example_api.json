@@ -1,0 +1,360 @@
+/* The API results pertinent to the APP: */
+[
+  {
+	"title": "Dune",
+    "authors": [
+      "Frank Herbert"
+    ],
+	"publishedDate": "2010-12-30",
+    "description": "The Duke of Atreides has been manoeuvred by his arch-enemy, Baron Harkonnen, into administering the desert planet of Dune. Although it is almost completely without water, Dune is a planet of fabulous wealth, for it is the only source of a drug prized throughout the Galactic Empire. The Duke and his son, Paul, are expecting treachery, and it duly comes - but from a shockingly unexpected place. Then Paul succeeds his father, and he becomes a catalyst for the native people of Dune, whose knowledge of the ecology of the planet gives them vast power. They have been waiting for a leader like Paul Atreides, a leader who can harness that force ... DUNE: one of the most brilliant science fiction novels ever written, as engrossing and heart-rending today as it was when it was first published half a century ago. Joint winner of the HUGO AWARD for best novel, 1966 Winner of the NEBULA AWARD for best novel, 1965",
+	"categories": [
+      "Fiction"
+    ],
+	"averageRating": 4,
+	 "thumbnail": "http://books.google.com/books/content?id=rXYdGATpigsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+	}
+]
+	 
+/* Below is an example of the full API result */
+[
+  {
+    "title": "Dune",
+    "authors": [
+      "Frank Herbert"
+    ],
+    "publisher": "Hachette UK",
+    "publishedDate": "2010-12-30",
+    "description": "The Duke of Atreides has been manoeuvred by his arch-enemy, Baron Harkonnen, into administering the desert planet of Dune. Although it is almost completely without water, Dune is a planet of fabulous wealth, for it is the only source of a drug prized throughout the Galactic Empire. The Duke and his son, Paul, are expecting treachery, and it duly comes - but from a shockingly unexpected place. Then Paul succeeds his father, and he becomes a catalyst for the native people of Dune, whose knowledge of the ecology of the planet gives them vast power. They have been waiting for a leader like Paul Atreides, a leader who can harness that force ... DUNE: one of the most brilliant science fiction novels ever written, as engrossing and heart-rending today as it was when it was first published half a century ago. Joint winner of the HUGO AWARD for best novel, 1966 Winner of the NEBULA AWARD for best novel, 1965",
+    "industryIdentifiers": [
+      {
+        "type": "ISBN_13",
+        "identifier": "9780575104419"
+      },
+      {
+        "type": "ISBN_10",
+        "identifier": "0575104414"
+      }
+    ],
+    "pageCount": 624,
+    "printType": "BOOK",
+    "categories": [
+      "Fiction"
+    ],
+    "averageRating": 4,
+    "ratingsCount": 3050,
+    "maturityRating": "NOT_MATURE",
+    "language": "en",
+    "id": "rXYdGATpigsC",
+    "link": "https://market.android.com/details?id=book-rXYdGATpigsC",
+    "thumbnail": "http://books.google.com/books/content?id=rXYdGATpigsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "images": {
+      
+    }
+  },
+  {
+    "title": "Dune: The Gateway Collection",
+    "authors": [
+      "Frank Herbert"
+    ],
+    "publisher": "Hachette UK",
+    "publishedDate": "2012-11-30",
+    "description": "This collection contains Frank Herbert's Dune saga, widely considered to be one of the greatest works of SF in history: Dune Dune Messiah Children of Dune God Emperor of Dune Heretics of Dune Chapter House Dune",
+    "industryIdentifiers": [
+      {
+        "type": "ISBN_13",
+        "identifier": "9780575122796"
+      },
+      {
+        "type": "ISBN_10",
+        "identifier": "057512279X"
+      }
+    ],
+    "pageCount": 800,
+    "printType": "BOOK",
+    "categories": [
+      "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "language": "en",
+    "id": "FZOdS_02yacC",
+    "link": "https://market.android.com/details?id=book-FZOdS_02yacC",
+    "thumbnail": "http://books.google.com/books/content?id=FZOdS_02yacC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "images": {
+      
+    }
+  },
+  {
+    "title": "Dune: Red Plague",
+    "subtitle": "Red Plague",
+    "authors": [
+      "Brian Herbert",
+      "Kevin J. Anderson"
+    ],
+    "publisher": "Macmillan",
+    "publishedDate": "2016-11-02",
+    "description": "An all-new Tale of the Great Schools of Dune -- written to accompany Navigators of Dune by the same authors (Tor, September 2016). At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+    "industryIdentifiers": [
+      {
+        "type": "ISBN_13",
+        "identifier": "9780765396358"
+      },
+      {
+        "type": "ISBN_10",
+        "identifier": "0765396351"
+      }
+    ],
+    "pageCount": 32,
+    "printType": "BOOK",
+    "categories": [
+      "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "language": "en",
+    "id": "5ug6DQAAQBAJ",
+    "link": "https://market.android.com/details?id=book-5ug6DQAAQBAJ",
+    "thumbnail": "http://books.google.com/books/content?id=5ug6DQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "images": {
+      
+    }
+  },
+  {
+    "title": "Dune: The Machine Crusade",
+    "authors": [
+      "Brian Herbert",
+      "Kevin J. Anderson"
+    ],
+    "publisher": "Macmillan",
+    "publishedDate": "2004-08-01",
+    "description": "The breathtaking vision and incomparable storytelling of Brian Herbert and Kevin Anderson's Dune: The Butlerian Jihad, a prequel to Frank Herbert's classic Dune, propelled it to the ranks of speculative fiction's classics in its own right. Now, with all the color, scope, and fascination of the prior novel, comes Dune: The Machine Crusade. More than two decades have passed since the events chronicled in The Butlerian Jihad. The crusade against thinking robots has ground on for years, but the forces led by Serena Butler and Irbis Ginjo have made only slight gains; the human worlds grow weary of war, of the bloody, inconclusive swing from victory to defeat. The fearsome cymeks, led by Agamemnon, hatch new plots to regain their lost power from Omnius--as their numbers dwindle and time begins to run out. The fighters of Ginaz, led by Jool Noret, forge themselves into an elite warrior class, a weapon against the machine-dominated worlds. Aurelius Venport and Norma Cenva are on the verge of the most important discovery in human history-a way to \"fold\" space and travel instantaneously to any place in the galaxy. And on the faraway, nearly worthless planet of Arrakis, Selim Wormrider and his band of outlaws take the first steps to making themselves the feared fighters who will change the course of history: the Fremen. Here is the unrivaled imaginative power that has put Brian Herbert and Kevin Anderson on bestseller lists everywhere and earned them the high regard of readers around the globe. The fantastic saga of Dune continues in Dune: The Machine Crusade. At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+    "industryIdentifiers": [
+      {
+        "type": "ISBN_10",
+        "identifier": "1429967897"
+      },
+      {
+        "type": "ISBN_13",
+        "identifier": "9781429967891"
+      }
+    ],
+    "pageCount": 624,
+    "printType": "BOOK",
+    "categories": [
+      "Fiction"
+    ],
+    "averageRating": 4,
+    "ratingsCount": 21,
+    "maturityRating": "NOT_MATURE",
+    "language": "en",
+    "id": "dLbwPpBYDl8C",
+    "link": "https://market.android.com/details?id=book-dLbwPpBYDl8C",
+    "thumbnail": "http://books.google.com/books/content?id=dLbwPpBYDl8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "images": {
+      
+    }
+  },
+  {
+    "title": "The Butlerian Jihad",
+    "subtitle": "Legends of Dune 1",
+    "authors": [
+      "Brian Herbert",
+      "Kevin J Anderson"
+    ],
+    "publisher": "Hachette UK",
+    "publishedDate": "2012-07-05",
+    "description": "One hundred and ten centuries from now, humanity has spread across space. And all-powerful machines rule the humans who were once their masters. It began in the Time of Tyrants, when ambitious men and women used high-powered computers to seize control of the heart of the Old Empire including Earth itself. The tyrants translated their brains into mobile mechanical bodies and created a new race, the immortal man-machine hybrids called cymeks. Then the cymeks' world-controlling planetary computers - each known as Omnius - seized control from their overlords and a thousand years of brutal rule by the thinking machines began. But their world faces disaster. Impatient with human beings' endless disobedience and the cymeks' continual plotting to regain their power, Omnius has decided that it no longer needs them. Only victory can save the human race from extermination. ‘Such vile villains...and such a fascinating description of splendid places.' Anne McCaffrey on HOUSE HARKONNEN",
+    "industryIdentifiers": [
+      {
+        "type": "ISBN_13",
+        "identifier": "9781848943407"
+      },
+      {
+        "type": "ISBN_10",
+        "identifier": "1848943407"
+      }
+    ],
+    "pageCount": 624,
+    "printType": "BOOK",
+    "categories": [
+      "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "language": "en",
+    "id": "cZ4Hr3R2tbwC",
+    "link": "https://market.android.com/details?id=book-cZ4Hr3R2tbwC",
+    "thumbnail": "http://books.google.com/books/content?id=cZ4Hr3R2tbwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "images": {
+      
+    }
+  },
+  {
+    "title": "Dune: House Atreides",
+    "authors": [
+      "Brian Herbert",
+      "Kevin Anderson"
+    ],
+    "publisher": "Spectra",
+    "publishedDate": "2003-03-18",
+    "description": "THE EPIC PREQUEL TO DUNE \"DUNE: HOUSE ATREIDES is a terrific prequel, but it is also a first-rate adventure on its own. Frank Herbert would surely be delighted and proud of this continuation of his vision.\"—Dean Koontz Frank Herbert's Dune chronicles became an enduring classic and the most popular science fiction series of all time. Working from recently discovered files left by his father, Brian Herbert and best-selling novelist Kevin J. Anderson bring us Dune: House Atreides, the prequel, which captures all the complexity and grand themes of the original work while weaving a new tapestry of great passion and momentous destiny into a saga that expands the tale written by Frank Herbert more than thirty years ago. Complex, brilliant, and prophetic, Frank Herbert's award-winning Dune chronicles captured the imaginations of millions of readers worldwide—and transformed their perception of what the future could be. By his death in 1986, Frank Herbert had completed six novels in the Dune series. But much of his vision—vast, sprawling, and multilayered—remained unwritten. Now, working from recently discovered files left by his father, Brian Herbert and bestselling novelist Kevin J. Anderson collaborate on a new novel, the first volume in the prequel to Dune—where we step onto planet Arrakis...decades before Dune's hero, Paul Atreides, walks its sands. — Beginning nearly four decades before Dune, House Atreides introduces pivotal characters, alliances, base treacheries, and bright hopes that form the foundation of Dune. On the planet Arrakis, an aging tyrant sits on the Golden Lion Throne and rules all of the known universe, while his son grows dangerously impatient for the crown. A quasi-religious order of black-robed women move their secret breeding program one momentous step closer to creating a god-child they call the Kwisatz Haderach. And a minor family among the nobility, House Atreides, chooses a course of honor that will bring it to destruction at the hands of its mortal enemy, House Harkonnen—or take it to new heights of power. Here is the rich and complex world that Frank Herbert created in his classic series, in the time leading up to the momentous events of Dune. As Emperor Elrood's son Shaddam plots a subtle regicide, young Leto Atreides leaves his lush, water-rich planet for a year's education on the mechanized world of Ix; a planetologist named Pardot Kynes is dispatched by the Emperor to the desert planet Arrakis, or Dune, to discover the secrets of the addictive spice known as melange; and the eight-year-old slave Duncan Idaho is hunted by his cruel masters in a terrifying game from which he vows escape and vengeance. But none can envision the fate in store for them: one that will make them renegades—and shapers of history. Covering the decade when Shaddam wins his throne, the teenager Leo Atreides becomes unexpectedly the rule of House Atreides, and Pardot Kynes uncovers one of the planet Dune's greatest secrets, House Atreides stands next to Dune in its power and scope. While this new novel solves some of Dune's most baffling mysteries, it presents new puzzles springing from the sands where one day Paul Muad'Dib Atreides will walk. But now, in the years before Paul's birth, an unforgettable new epic begins. Fans of the Dune chronicles will relish the opportunity to return to the rich and exotic universe created by Frank Herbert, while new readers will be introduced to an incomparable imagination—a future where the fate of the entire cosmos is at stake.",
+    "industryIdentifiers": [
+      {
+        "type": "ISBN_13",
+        "identifier": "9780553897821"
+      },
+      {
+        "type": "ISBN_10",
+        "identifier": "0553897829"
+      }
+    ],
+    "pageCount": 704,
+    "printType": "BOOK",
+    "categories": [
+      "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "language": "en",
+    "id": "nriEi9MPlswC",
+    "link": "https://market.android.com/details?id=book-nriEi9MPlswC",
+    "thumbnail": "http://books.google.com/books/content?id=nriEi9MPlswC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "images": {
+      
+    }
+  },
+  {
+    "title": "Dune is a Four-letter Word",
+    "authors": [
+      "Griselda Sprigg",
+      "Rod Maclean"
+    ],
+    "publisher": "Wakefield Press",
+    "publishedDate": "2001",
+    "description": "Story of a family's desert adventures, including crossing the Simpson Desert by four-wheel drive, making Griselda Sprigg the first ever white woman to cross it. Tells how the Spriggs turned a drought-stricken sheep station into a flora and fauna reserve and tourist attraction. Themes are adventure, true love and family. Includes map and illustrations. Foreword by Dick Smith.",
+    "industryIdentifiers": [
+      {
+        "type": "ISBN_10",
+        "identifier": "1862545405"
+      },
+      {
+        "type": "ISBN_13",
+        "identifier": "9781862545403"
+      }
+    ],
+    "pageCount": 253,
+    "printType": "BOOK",
+    "categories": [
+      "Travel"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "language": "en",
+    "id": "pQF3QWxaQ3AC",
+    "link": "http://books.google.ch/books/about/Dune_is_a_Four_letter_Word.html?hl=&id=pQF3QWxaQ3AC",
+    "thumbnail": "http://books.google.com/books/content?id=pQF3QWxaQ3AC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "images": {
+      
+    }
+  },
+  {
+    "title": "Dune: House Corrino",
+    "authors": [
+      "Brian Herbert",
+      "Kevin Anderson"
+    ],
+    "publisher": "Spectra",
+    "publishedDate": "2002-08-27",
+    "description": "The triumphant conclusion to the blockbuster trilogy that made science fiction history! In Dune: House Corrino Brian Herbert and Kevin J. Anderson bring us the magnificent final chapter in the unforgettable saga begun in Dune: House Atreides and continued in Dune: House Harkonnen. Here nobles and commoners, soldiers and slaves, wives and courtesans shape the amazing destiny of a tumultuous universe. An epic saga of love and war, crime and politics, religion and revolution, this magnificent novel is a fitting conclusion to a great science fiction trilogy ... and an invaluable addition to the thrilling world of Frank Herbert’s immortal Dune. Dune: House Corrino Fearful of losing his precarious hold on the Golden Lion Throne, Shaddam IV, Emperor of a Million Worlds, has devised a radical scheme to develop an alternative to melange, the addictive spice that binds the Imperium together and that can be found only on the desert world of Dune. In subterranean labs on the machine planet Ix, cruel Tleilaxu overlords use slaves and prisoners as part of a horrific plan to manufacture a synthetic form of melange known as amal. If amal can supplant the spice from Dune, it will give Shaddam what he seeks: absolute power. But Duke Leto Atreides, grief-stricken yet unbowed by the tragic death of his son Victor, determined to restore the honor and prestige of his House, has his own plans for Ix. He will free the Ixians from their oppressive conquerors and restore his friend Prince Rhombur, injured scion of the disgraced House Vernius, to his rightful place as Ixian ruler. It is a bold and risky venture, for House Atreides has limited military resources and many ruthless enemies, including the sadistic Baron Harkonnen, despotic master of Dune. Meanwhile, Duke Leto’s consort, the beautiful Lady Jessica, obeying the orders of her superiors in the Bene Gesserit Sisterhood, has conceived a child that the Sisterhood intends to be the penultimate step in the creation of an all-powerful being. Yet what the Sisterhood doesn’t know is that the child Jessica is carrying is not the girl they are expecting, but a boy. Jessica’s act of disobedience is an act of love — her attempt to provide her Duke with a male heir to House Atreides — but an act that, when discovered, could kill both mother and baby. Like the Bene Gesserit, Shaddam Corrino is also concerned with making a plan for the future — securing his legacy. Blinded by his need for power, the Emperor will launch a plot against Dune, the only natural source of true spice. If he succeeds, his madness will result in a cataclysmic tragedy not even he foresees: the end of space travel, the Imperium, and civilization itself. With Duke Leto and other renegades and revolutionaries fighting to stem the tide of darkness that threatens to engulf their universe, the stage is set for a showdown unlike any seen before. From the Hardcover edition.",
+    "industryIdentifiers": [
+      {
+        "type": "ISBN_13",
+        "identifier": "9780553896954"
+      },
+      {
+        "type": "ISBN_10",
+        "identifier": "0553896954"
+      }
+    ],
+    "pageCount": 688,
+    "printType": "BOOK",
+    "categories": [
+      "Fiction"
+    ],
+    "averageRating": 3,
+    "ratingsCount": 1,
+    "maturityRating": "NOT_MATURE",
+    "language": "en",
+    "id": "--8cBYaNlA4C",
+    "link": "https://market.android.com/details?id=book---8cBYaNlA4C",
+    "thumbnail": "http://books.google.com/books/content?id=--8cBYaNlA4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "images": {
+      
+    }
+  },
+  {
+    "title": "Heretics Of Dune",
+    "subtitle": "The Fifth Dune Novel",
+    "authors": [
+      "Frank Herbert"
+    ],
+    "publisher": "Hachette UK",
+    "publishedDate": "2010-12-30",
+    "description": "From Dune to Rakis to Dune, the wheel turns full circle. From burning desert to green and fertile land and on again to burning desert ... the cycle is complete. The people of the Scattering are returning. Amongst them, mysterious and threatening, are the women who call themselves the Honoured Matres, adepts of an ecstatic cult. And on Rakis, become Dune, an ancient prophecy is fulfilled with the coming of the she-sheer, Sheeana ...",
+    "industryIdentifiers": [
+      {
+        "type": "ISBN_13",
+        "identifier": "9780575104457"
+      },
+      {
+        "type": "ISBN_10",
+        "identifier": "0575104457"
+      }
+    ],
+    "pageCount": 512,
+    "printType": "BOOK",
+    "categories": [
+      "Fiction"
+    ],
+    "averageRating": 4,
+    "ratingsCount": 1,
+    "maturityRating": "NOT_MATURE",
+    "language": "en",
+    "id": "s4gncWS43OgC",
+    "link": "https://market.android.com/details?id=book-s4gncWS43OgC",
+    "thumbnail": "http://books.google.com/books/content?id=s4gncWS43OgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "images": {
+      
+    }
+  },
+  {
+    "title": "Dune: House Harkonnen",
+    "authors": [
+      "Brian Herbert",
+      "Kevin Anderson"
+    ],
+    "publisher": "Spectra",
+    "publishedDate": "2003-03-18",
+    "description": "Brian Herbert and Kevin J. Anderson return to the vivid universe of Frank Herbert’s Dune, bringing a vast array of rich and complex characters into conflict to shape the destiny of worlds.... As Shaddam sits at last on the Golden Lion Throne, Baron Vladimir Harkonnen plots against the new Emperor and House Atreides — and against the mysterious Sisterhood of the Bene Gesserit. For Leto Atreides, grown complacent and comfortable as ruler of his House, it is a time of momentous choice: between friendship and duty, safety and destiny. But for the survival of House Atreides, there is just one choice — strive for greatness or be crushed. From the Paperback edition.",
+    "industryIdentifiers": [
+      {
+        "type": "ISBN_13",
+        "identifier": "9780553897838"
+      },
+      {
+        "type": "ISBN_10",
+        "identifier": "0553897837"
+      }
+    ],
+    "pageCount": 752,
+    "printType": "BOOK",
+    "categories": [
+      "Fiction"
+    ],
+    "averageRating": 3.5,
+    "ratingsCount": 15,
+    "maturityRating": "NOT_MATURE",
+    "language": "en",
+    "id": "1N1rTDJP55UC",
+    "link": "https://market.android.com/details?id=book-1N1rTDJP55UC",
+    "thumbnail": "http://books.google.com/books/content?id=1N1rTDJP55UC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "images": {
+      
+    }
+  }
+]

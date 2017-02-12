@@ -1,0 +1,45 @@
+#topText{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#buttonBooksDel{
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+/*
+#resultText{ 
+    border: 5px groove #4393B9;
+}
+*/
+/* Results list */
+.result-list-container {
+  position: relative;
+  bottom: 300;
+  min-width: 150px;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding: 20px;
+  background-color: tansparent; 
+  border-radius: 25px;
+  border: 2px solid #4393B9;//#0000FF;
+  text-align: left;
+  box-shadow: 2px 2px 10px 2px #29293d;
+}
+
+.result-list-container > a p, a {
+  color: #000000;
+}
+
+.result-list-container > a:hover, a:visited, a:link {
+  text-decoration: none !important;
+  color: #4393B9;//#0000FF;
+}
+
+.result-list-container:hover {
+  transform: scale(1.1);
+  text-decoration: none !important;
+}

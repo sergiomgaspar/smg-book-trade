@@ -1,0 +1,54 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 page-header-add">
+      <h1 class="page-header">Add book to personal library</h1>
+      <h4>Use the field below to search for a specific book<h4>
+          <h4>After finding the desired book, click "Add" to add it to your collection</h4>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="addBookDiv">
+    <div class="form-group col-xs-2 col-sm-3 col-md-4 col-lg-4"></div>
+    <div class="form-group col-xs-8 col-sm-6 col-md-4 col-lg-4">
+    <input type="text" class="form-control" 
+        id="bookInput" 
+        placeholder="Enter book name" 
+        ng-model="addbookCtrl.bookName">
+</div >
+    <button type="submit" 
+    class="btn btn-default btn-primary"
+    ng-show="addbookCtrl.bookName.length > 0"
+    ng-click="addbookCtrl.findBook()">Find book</button>
+    
+</div>
+
+
+<div class = "col-xs-2 col-sm-3 col-md-4 col-lg-4"></div>
+		<div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12" id="results">
+			<div id="resultsSection" class="row pull-center">
+				<div id="resultContentList" >
+					<div class="result-list-container" ng-repeat="book in addbookCtrl.bookList">
+						<div class = "row">
+							<div class = "col-xs-3 col-sm-3 col-md-2 col-lg-2" id="resultImage">
+								<img src="{{book.thumbnail}}"  class="img-responsive center-block">
+								<div id = "rating">
+									<h4><b>rating: {{book.averageRating}} </b></h4>
+								</div>
+							</div>
+							<div class = "col-xs-9 col-sm-9 col-md-10 col-lg-10" id="resultText">
+								<b>Name:</b> {{book.title}}<br>
+								<b>Description:</b> {{book.description}} <br>
+                                <b>author:</b><div ng-repeat="author in book.authors">{{author}} </div>
+								<br>
+								<button type="button" 
+									class="btn btn-success" 
+                                    ng-hide="book.allowAdd == 0"
+									ng-click="addbookCtrl.addBook($index)">ADD</button>
+                                <div id="bookPresent" ng-hide="book.allowAdd == 1"><i>Book added the personal list</i></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
