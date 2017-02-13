@@ -1,10 +1,12 @@
+
 <div class="container">
-	<div class="row">
-		<div class="col-sm-12" id = "topText">
-			<h1>My Books</h1>
-			<h4>Below is the list of books you own</h4>
-		</div>
-	</div>
+  <div class="row">
+    <div class="col-lg-12 page-header-add">
+      <h1 class="page-header">My Books</h1>
+      <h3>Below is the list of books you own<h3>
+      <h4>These books are available to trade with other users</h4>
+    </div>
+  </div>
 </div>
 
 <div class="container">
@@ -19,14 +21,14 @@
 	<!--<div class="row">-->
 		<!--<div class = "col-xs-6 col-sm-6 col-md-4 col-lg-4" id="results">-->
 			<!--<div id="resultsSection" class="row pull-center">-->
-				<!--<div id="resultContentList" >-->
+				<div >
 					<!--<div class="result-list-container" ng-repeat="book in mybooksCtrl.bookList">-->
-						<div  ng-repeat="book in mybooksCtrl.bookList">
-						<!--<div class = "row">-->
-							<div class = "col-xs-12 col-sm-6 col-md-4 col-lg-4" id="resultText">
+						<div  ng-repeat="book in mybooksCtrl.bookList" >
+						<div class = "row" id="myBooksresults">
+							<div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12" id="resultText">
 								
 								<b>Name:</b> {{book.title}}<br>
-								<b>Description:</b> {{book.description}} <br>
+								<b>Description:</b> {{book.descriptionFull}} <br>
 								<b>author:</b><div ng-repeat="author in book.authors">{{author}} </div>
 								<br>
 								<!--<div class = "col-xs-3 col-sm-3 col-md-2 col-lg-2" id="resultImage">-->
@@ -42,8 +44,8 @@
 									ng-click="mybooksCtrl.deleteBook($index)">Delete</button>
 							</div>
 							</div>
-						<!--</div>-->
-					<!--</div>-->
+						</div>
+					</div>
 				<!--</div>-->
 			</div>
 		<!--</div>-->

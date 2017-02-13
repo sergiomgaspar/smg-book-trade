@@ -15,6 +15,8 @@ export class MybooksComponent {
   
   // Component variables
   bookList = [];
+  requestedList = []; // List of books user own that were requested by other users
+  waitingList = [];   // List of books the user has requested to other users and are waiting approval
 
 	/*@ngInject*/
 	constructor($http, Auth) {
@@ -24,10 +26,31 @@ export class MybooksComponent {
 
   /* Load user owned books */
 	$onInit() {
+
+    // Get user Books
     this.$http.get('/api/books/' + this.Auth.getCurrentUserSync()._id)
       .then(res => {
         this.bookList = res.data;
       });
+
+    // Get user books that have been requested by other users
+        this.$http({
+					url: '/api/trades/owner',
+					method: "GET",
+					data: {ownerId: this.Auth.getCurrentUserSync()._id}
+				})
+				.then(function(res) {
+						console.log("Book trade requested");
+					},
+					function(res) { // optional
+						console.log("Error while requesting book trade");
+					});
+
+/*
+    this.$http.get('/api/trades/owner',)
+      .then(res => {
+        this.requestedList = res.data;
+      });*/
 	}
 }
 

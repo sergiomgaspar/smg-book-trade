@@ -72,6 +72,25 @@ export function index(req, res) {
 
 // Gets a single Trades from the DB
 export function show(req, res) {
+   console.log("GETTING TRADES BY USER:");
+   console.log("req.params.id: "+req.params.id);
+   console.log("req.params.ownerId: "+req.params.ownerId)
+   console.log("req.params.requesterId: "+req.params.requesterId)
+  if (req.params.id === 'ownerId') {
+    var trades = new Trades({ ownerId: req.body.ownerId });
+    return trades.findByOwnerId().lean().exec()
+      .then(handleEntityNotFound(res))
+      .then(respondWithResult(res))
+      .catch(handleError(res));
+  }
+  else {
+    var trades = new Trades({ requesterId: req.body.requesterId });
+    return trades.findByRequesterId().lean().exec()
+      .then(handleEntityNotFound(res))
+      .then(respondWithResult(res))
+      .catch(handleError(res));
+  } 
+
   return Trades.findById(req.params.id).exec()
     .then(handleEntityNotFound(res))
     .then(respondWithResult(res))
@@ -79,7 +98,7 @@ export function show(req, res) {
 }
 
 // Creates a new Trades in the DB
-export function create(req, res) {
+export function create(req, res) {  
   return Trades.create(req.body)
     .then(respondWithResult(res, 201))
     .catch(handleError(res));

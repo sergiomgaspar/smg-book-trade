@@ -24,31 +24,30 @@
 </div>
 
 
-<div class = "col-xs-2 col-sm-3 col-md-4 col-lg-4"></div>
-		<div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12" id="results">
-			<div id="resultsSection" class="row pull-center">
-				<div id="resultContentList" >
-					<div class="result-list-container" ng-repeat="book in addbookCtrl.bookList">
-						<div class = "row">
-							<div class = "col-xs-3 col-sm-3 col-md-2 col-lg-2" id="resultImage">
-								<img src="{{book.thumbnail}}"  class="img-responsive center-block">
-								<div id = "rating">
-									<h4><b>rating: {{book.averageRating}} </b></h4>
-								</div>
-							</div>
-							<div class = "col-xs-9 col-sm-9 col-md-10 col-lg-10" id="resultText">
-								<b>Name:</b> {{book.title}}<br>
-								<b>Description:</b> {{book.description}} <br>
-                                <b>author:</b><div ng-repeat="author in book.authors">{{author}} </div>
-								<br>
-								<button type="button" 
-									class="btn btn-success" 
-                                    ng-hide="book.allowAdd == 0"
-									ng-click="addbookCtrl.addBook($index)">ADD</button>
-                                <div id="bookPresent" ng-hide="book.allowAdd == 1"><i>Book added the personal list</i></div>
-							</div>
+<div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12" id="results">
+	<div id="resultsSection" class="row pull-center">
+		<div id="resultContentList" >
+			<div class="result-list-container" ng-repeat="book in addbookCtrl.bookList">
+				<div class = "row">
+					<div class = "col-xs-3 col-sm-3 col-md-2 col-lg-2" id="resultImage">
+						<img src="{{book.thumbnail}}"  class="img-responsive center-block">
+						<div id = "rating">
+							<h4><b>rating: {{book.averageRating}} </b></h4>
 						</div>
+					</div>
+					<div class = "col-xs-9 col-sm-9 col-md-10 col-lg-10" id="resultText">
+						<b>Name:</b> {{book.title}}<br>
+						<b>Description:</b> {{book.description}} <br>
+						<b>Author:</b><div ng-repeat="author in book.authors">{{author}} </div>
+						<br>
+						<button type="button" 
+							class="btn btn-success" 
+							ng-hide="book.allowAdd == 0"
+							ng-click="addbookCtrl.addBook($index)">ADD</button>
+						<div id="bookPresent" ng-hide="book.allowAdd == 1"><i>Book added the personal list</i></div>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
+</div>
