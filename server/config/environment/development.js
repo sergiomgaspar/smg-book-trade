@@ -7,7 +7,7 @@ module.exports = {
 
   // MongoDB connection options
   mongo: {
-    uri: 'mongodb://localhost/smgbooktrade-dev'
+    uri: 'mongodb://localhost/smgbooktrade-dev?socketTimeoutMS=90000'
   },
 
   // Seed database on startup

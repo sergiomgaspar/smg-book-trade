@@ -62,7 +62,7 @@ function handleError(res, statusCode) {
     res.status(statusCode).send(err);
   };
 }
-
+ 
 // Gets a list of Tradess
 export function index(req, res) {
   return Trades.find().exec()
@@ -72,29 +72,29 @@ export function index(req, res) {
 
 // Gets a single Trades from the DB
 export function show(req, res) {
-   console.log("GETTING TRADES BY USER:");
-   console.log("req.params.id: "+req.params.id);
-   console.log("req.params.ownerId: "+req.params.ownerId)
-   console.log("req.params.requesterId: "+req.params.requesterId)
-  if (req.params.id === 'ownerId') {
-    var trades = new Trades({ ownerId: req.body.ownerId });
+  if ( typeof req.query.ownerId !== 'undefined' && req.query.ownerId ){
+    console.log("Getting trades by ownerId: "+req.query.ownerId);
+    var trades = new Trades({ ownerId: req.query.ownerId });
     return trades.findByOwnerId().lean().exec()
       .then(handleEntityNotFound(res))
       .then(respondWithResult(res))
       .catch(handleError(res));
   }
-  else {
-    var trades = new Trades({ requesterId: req.body.requesterId });
+  else if ( typeof req.query.requesterId !== 'undefined' && req.query.requesterId ){
+    console.log("Getting trades by requesterId: "+req.query.requesterId);
+    var trades = new Trades({ requesterId: req.query.requesterId });
     return trades.findByRequesterId().lean().exec()
       .then(handleEntityNotFound(res))
       .then(respondWithResult(res))
       .catch(handleError(res));
-  } 
-
-  return Trades.findById(req.params.id).exec()
-    .then(handleEntityNotFound(res))
-    .then(respondWithResult(res))
-    .catch(handleError(res));
+  }
+  else {
+    console.log("Getting specific trade: "+ req.params.id);
+    return Trades.findById(req.params.id).exec()
+      .then(handleEntityNotFound(res))
+      .then(respondWithResult(res))
+      .catch(handleError(res));
+  }
 }
 
 // Creates a new Trades in the DB

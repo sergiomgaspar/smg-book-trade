@@ -12,6 +12,12 @@ export function UserResource($resource) {
         controller: 'password'
       }
     },
+    changeLocation: {
+      method: 'PUT',
+      params: {
+        controller: 'location'
+      }
+    },
     get: {
       method: 'GET',
       params: {

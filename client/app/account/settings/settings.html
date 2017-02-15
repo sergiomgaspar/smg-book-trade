@@ -1,3 +1,48 @@
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1>Change Location Settings</h1>
+    </div>
+    <div class="col-sm-12">
+      <form class="form2" name="form2" ng-submit="vm.changeLocation(form2)" novalidate>
+
+        <div class="form-group">
+          <label>New City</label>
+
+          <input type="city" name="newCity" class="form-control" ng-model="vm.user.newCity"
+                 ng-minlength="3"
+                 placeholder="{{vm.oldCity}}" 
+                 required/>
+          <p class="help-block"
+             ng-show="(form2.newCity.$error.minlength || form2.newCity.$error.required) && (form2.newCity.$dirty || vm.submitted2)">
+            City must be at least 3 characters.
+          </p>
+        </div>
+
+        <div class="form-group">
+          <label>New Country</label>
+
+          <input type="country" name="newCountry" class="form-control" ng-model="vm.user.newCountry"
+                 ng-minlength="3"
+                 placeholder="{{vm.oldCountry}}" 
+                 required/>
+          <p class="help-block"
+             ng-show="(form2.newCountry.$error.minlength || form2.newCountry.$error.required) && (form2.newCountry.$dirty || vm.submitted2)">
+            Country must be at least 3 characters.
+          </p>
+        </div>
+
+        <p class="help-block"> {{ vm.locationMessage }} </p>
+      </form>
+      <button type="submit" 
+        class="btn btn-lg btn-primary"
+        ng-click="vm.changeLocation(form2)">Save changes</button>
+    </div>
+  </div>
+</div>
+
+
 <div class="container">
   <div class="row">
     <div class="col-sm-12">

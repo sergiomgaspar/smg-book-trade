@@ -99,6 +99,27 @@ export function changePassword(req, res) {
 }
 
 /**
+ * Change a users location
+ */
+export function changeLocation(req, res) {
+  console.log("User requested Location change");
+  var userId = req.body.userId;
+  var newCity = String(req.body.newCity);
+  var newCountry = String(req.body.newCountry);
+
+  return User.findById(userId).exec()
+    .then(user => {
+        user.city = newCity;
+        user.country = newCountry;
+        return user.save()
+          .then(() => {
+            res.status(204).end();
+          })
+          .catch(validationError(res));
+    });
+}
+
+/**
  * Get my info
  */
 export function me(req, res, next) {

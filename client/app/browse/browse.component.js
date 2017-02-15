@@ -31,7 +31,7 @@ export class BrowseComponent {
      this.isLogged = this.Auth.isLoggedInSync();
      if(this.isLogged) {
        this.userID=this.Auth.getCurrentUserSync()._id;
-       this.userName=this.Auth.getCurrentUserSync();
+       this.userName=this.Auth.getCurrentUserSync().name;
      }
 	}
 
@@ -40,6 +40,8 @@ export class BrowseComponent {
       var bookReq = {
         status: 0,
         bookId: this.bookList[index]._id,
+        title: this.bookList[index].title,
+        thumbnail: this.bookList[index].thumbnail,
         ownerId: this.bookList[index].ownerId,
         ownerName: this.bookList[index].ownerName,
         insertDate: new Date(),

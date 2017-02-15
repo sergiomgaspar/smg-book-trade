@@ -5,6 +5,8 @@ class _User {
   _id: string = '';
   name: string = '';
   email: string = '';
+  city: string = '';
+  country: string = '';
   role: string = '';
   $promise = undefined;
 }
@@ -101,6 +103,29 @@ export function AuthService($location, $http, $cookies, $q, appConfig, Util, Use
       }, {
         oldPassword,
         newPassword
+      }, function() {
+        return safeCb(callback)(null);
+      }, function(err) {
+        return safeCb(callback)(err);
+      })
+        .$promise;
+    },
+
+    /**
+     * Change location
+     *
+     * @param  {String}   newCity
+     * @param  {String}   newCountry
+     * @param  {Function} callback    - function(error, user)
+     * @return {Promise}
+     */
+    changeLocation(newCity, newCountry, callback ? : Function) {
+      return User.changeLocation({
+        id: currentUser._id
+      }, {
+        newCity,
+        newCountry,
+        userId: currentUser._id
       }, function() {
         return safeCb(callback)(null);
       }, function(err) {

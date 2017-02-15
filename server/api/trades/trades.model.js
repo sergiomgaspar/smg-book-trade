@@ -5,6 +5,8 @@ import mongoose from 'mongoose';
 var TradesSchema = new mongoose.Schema({
   status: Number,
   bookId: String,
+  title: String,
+  thumbnail: String,
   ownerId: String,
   ownerName: String,
   insertDate: String,

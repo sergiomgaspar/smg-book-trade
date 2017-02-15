@@ -99,7 +99,11 @@ export function upsert(req, res) {
   if(req.body._id) {
     delete req.body._id;
   }
-  return Books.findOneAndUpdate({_id: req.params.id}, req.body, {new: true, upsert: true, setDefaultsOnInsert: true, runValidators: true}).exec()
+
+  return Books.findOneAndUpdate({_id: req.params.id}, 
+    {ownerId: req.body.ownerId,
+    ownerName: req.body.ownerName},
+    {new: true, upsert: true, setDefaultsOnInsert: true, runValidators: true}).exec()
 
     .then(respondWithResult(res))
     .catch(handleError(res));

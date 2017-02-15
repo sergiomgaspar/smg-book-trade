@@ -19,6 +19,14 @@ var UserSchema = new Schema({
     type: String,
     required: true
   },
+  city: {
+    type: String,
+    required: true
+  },
+  country: {
+    type: String,
+    required: true
+  },
   provider: String,
   salt: String
 });
@@ -64,6 +72,20 @@ UserSchema
   .validate(function(password) {
     return password.length;
   }, 'Password cannot be blank');
+
+// Validate empty city
+UserSchema
+  .path('city')
+  .validate(function(city) {
+    return city.length;
+  }, 'City cannot be blank');  
+
+// Validate empty country
+UserSchema
+  .path('country')
+  .validate(function(country) {
+    return country.length;
+  }, 'Country cannot be blank');  
 
 // Validate email is not taken
 UserSchema

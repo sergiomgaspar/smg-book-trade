@@ -19,8 +19,6 @@ export class AddbookComponent {
 		this.Auth = Auth;
 	}
 
-// this.Auth.getCurrentUserSync()._id
-
   /* Call BE to find book by name using Google API */
   findBook = function(){
     console.log("Searching book: "+this.bookName);

@@ -35,6 +35,42 @@
           </p>
         </div>
 
+      <div class="form-group" ng-class="{ 'has-success': form.city.$valid && vm.submitted,
+                                            'has-error': form.city.$invalid && vm.submitted }">
+          <label>City</label>
+
+          <input type="city" name="city" class="form-control" ng-model="vm.user.city"
+                 required
+                 mongoose-error/>
+          <p class="help-block" ng-show="form.city.$error.city && vm.submitted">
+            Doesn't look like a valid city.
+          </p>
+          <p class="help-block" ng-show="form.city.$error.required && vm.submitted">
+            What's your city name?
+          </p>
+          <p class="help-block" ng-show="form.city.$error.mongoose">
+            {{ vm.errors.city }}
+          </p>
+        </div>
+
+        <div class="form-group" ng-class="{ 'has-success': form.country.$valid && vm.submitted,
+                                            'has-error': form.country.$invalid && vm.submitted }">
+          <label>Country</label>
+
+          <input type="country" name="country" class="form-control" ng-model="vm.user.country"
+                 required
+                 mongoose-error/>
+          <p class="help-block" ng-show="form.country.$error.country && vm.submitted">
+            Doesn't look like a valid country.
+          </p>
+          <p class="help-block" ng-show="form.country.$error.required && vm.submitted">
+            What's your country name?
+          </p>
+          <p class="help-block" ng-show="form.country.$error.mongoose">
+            {{ vm.errors.country }}
+          </p>
+        </div>
+
         <div class="form-group" ng-class="{ 'has-success': form.password.$valid && vm.submitted,
                                             'has-error': form.password.$invalid && vm.submitted }">
           <label>Password</label>
