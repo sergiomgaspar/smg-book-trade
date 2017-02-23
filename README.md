@@ -1,28 +1,50 @@
-# smg-book-trade
+# FCC Book Trading App
 
-This project was generated with the [Angular Full-Stack Generator](https://github.com/DaftMonk/generator-angular-fullstack) version 4.1.2.
+FCC Book Trading Club App is a fullstack JavaScript app to implement an where a user can trade books with other users. The user can build an "online" library of the books he owns and request to trade them with other users.
 
-## Getting Started
+This app uses the Google Books API to identify books and present their author, etc.
 
-### Prerequisites
+* [FreeCodeCamp] - Link to the exercice
+* [Heroku] - Online deployed version
 
-- [Git](https://git-scm.com/)
-- [Node.js and npm](nodejs.org) Node >= 4.x.x, npm >= 2.x.x
-- [Gulp](http://gulpjs.com/) (`npm install --global gulp`)
-- [MongoDB](https://www.mongodb.org/) - Keep a running daemon with `mongod`
+### APP description
 
-### Developing
+Below is a list of use cases.
 
-1. Run `npm install` to install server dependencies.
+  - **Use-case 1:** I can view all books posted by every user.
+  - **Use-case 2:** I can add a new book.
+  - **Use-case 3:** I can update my settings to store my full name, city, and state.
+  - **Use-case 4:** I can propose a trade and wait for the other user to accept the trade.
+  
 
-2. Run `mongod` in a separate shell to keep an instance of the MongoDB Daemon running
+## Local Installation
 
-3. Run `gulp serve` to start the development server. It should automatically open the client in your browser when ready.
+You'll need to have the latest verison of node.js installed. Either use your OS's package manager or follow the installation instructions on the [official website](http://nodejs.org).
 
-## Build & development
+Next, [install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) if it is not already installed. To clone this repository to your local machine, open a command line interface and navigate to your projects directory.
 
-Run `gulp build` for building and `gulp serve` for preview.
+You will also need Gulp (`npm install --global gulp`) and MongoDB. Then type:
 
-## Testing
+`$ git clone https://github.com/sergiomgaspar/smg-book-trade.git`
 
-Running `npm test` will run the unit tests with karma.
+Move to the `smg-book-trade` subdirectory and type `npm install`. This installs all of the APP dependencies.
+
+Finally, type `gulp serve` to start the application. If all goes well, it will be available at `http://localhost:3000`.
+
+To deploy a "production-ready" version of the app type `gulp build` and deploy the contents of the "dist" folder.
+
+### IMPORTANT
+This node app uses MongoDB (free mongoLab instance). The user/password are not correct and you will not be able to logon. Create your instance in mongoLab and **allways define the user and password and environment variables** *(never leave them inside code commited in gitHub!!!)*.
+
+## Technologies used
+
+In the about section of the page the used technologies are listed and described
+
+## License
+
+[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, the author has waived all copyright and related or neighboring rights to this work.
+
+[FreeCodeCamp]: <https://www.freecodecamp.com/challenges/manage-a-book-trading-club>
+[Heroku]: <https://smg-book-trade.herokuapp.com/>
